@@ -1,0 +1,32 @@
+# Binaries and build outputs
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Air hot reload
+/tmp/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+*.out
+coverage.*
